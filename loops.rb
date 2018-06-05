@@ -22,4 +22,6 @@ def dance
   moves_completed += 1
   puts "#{moves_completed} move(s) completed!"
 end
+
+end
 dance
