@@ -25,3 +25,19 @@
 
 # end
 # dance
+
+
+def dance
+  moves_completed =0
+  
+  while moves_completed <10 
+  puts "to the left, to the left"
+  puts "to the right, to the right"
+  
+  moves_completed +=1
+  
+  puts "#{moves_completed} move(s) completed!"
+end 
+
+end
+dance
